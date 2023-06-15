@@ -1,10 +1,10 @@
-import { useRef } from 'react';
-import MapContext from 'map/context/MapContext';
+import { useRef, useContext } from 'react';
 import { Vector as VectorSource } from 'ol/source';
 import { Vector as VectorLayer } from 'ol/layer';
-import { useContext } from 'react';
 import { NavDropdown } from 'react-bootstrap';
 import GeoJSON from 'ol/format/GeoJSON';
+
+import MapContext from 'map/context/MapContext';
 
 const AddLayerMenuItem = () => {
   const map = useContext(MapContext);

@@ -1,8 +1,9 @@
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+
 import AddLayerMenuItem from 'menu/components/menu-items/AddLayerMenuItem';
 import LayersPanelMenuItem from 'menu/components/menu-items/LayersPanelMenuItem';
 import AddLiveFeedMenuItem from 'menu/components/menu-items/AddLiveFeedMenuItem';
 import StyledMenuContainer from 'menu/components/StyledMenuContainer';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const Menu = () => {
   return (
